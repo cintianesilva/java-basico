@@ -16,8 +16,6 @@ public class ContaTerminal {
         String nAgencia;
         System.out.println("Informe a agência: ");
         nAgencia = agencia.nextLine();
-        System.out.println("A agência informada foi: " + nAgencia);
-
 
         Scanner cliente = new Scanner(System.in);
         String nome;
